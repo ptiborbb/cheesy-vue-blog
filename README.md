@@ -1,4 +1,6 @@
-# acmeblog
+# Cheesy Vue Blog
+
+![A simple Vue Project](https://github.com/JeremyMorgan/Cheesy-Vue-Blog/blob/main/src/assets/logo.png?raw=true)
 
 ## Project setup
 ```
