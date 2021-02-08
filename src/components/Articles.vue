@@ -1,4 +1,9 @@
 <template>
+<div class="row">
+  <div class="col-md-12">
+  <h3 style="text-align:center; margin: 0 auto;">Click <a href="#" v-on:click="gobeta">here</a> to try our BETA version</h3>
+  </div>
+</div>
   <div class="row">
     <div class="col-md-3"></div>
     <div class="col-md-6">
@@ -18,10 +23,17 @@
 </template>
 
 <script>
+import VueCookies from 'vue-cookies'
 export default {
   name: "Articles",
   props: {
     articles: Array,
   },
+  methods: {
+    gobeta: function(){
+      alert("We are going beta!");
+      VueCookies.set('nf_ab', "staging", "24h");
+    }
+  }
 };
 </script>
