@@ -13,6 +13,7 @@
         <p>
           <em>Posted: {{ item.date }}</em>
         </p>
+        <img v-bind:src="item.image" width="500">
         <p>{{ item.body }}</p>
         <hr />
       </li>
