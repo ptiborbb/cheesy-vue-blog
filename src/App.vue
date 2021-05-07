@@ -5,7 +5,7 @@
         <div class="jumbotron">
           <img alt="Vue logo" src="./assets/logo.png" />
           <HelloWorld
-            msg="My Cheesy Vue Blog"
+            msg="My Cheesy Vue Blog (On Vercel!)"
             byline="The blog that took (nearly) 30 minutes to create!"
           />
           <Articles :articles="items" />
