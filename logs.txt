@@ -1,0 +1,64 @@
+2021-05-10T21:43:10.966Z  
+2021-05-10T21:43:10.976Z  Retrieving list of deployment files...
+2021-05-10T21:43:13.243Z  Downloading 25 deployment files...
+2021-05-10T21:43:13.509Z  Analyzing source code...
+2021-05-10T21:43:15.169Z  Installing build runtime...
+2021-05-10T21:43:17.686Z  Build runtime installed: 2.517s
+2021-05-10T21:43:21.415Z  Looking up build cache...
+2021-05-10T21:43:21.801Z  Build cache found. Downloading...
+2021-05-10T21:43:23.690Z  Build cache downloaded [19.15 MB]: 1888.087ms
+2021-05-10T21:43:25.091Z  Detected package.json
+2021-05-10T21:43:25.091Z  Installing dependencies...
+2021-05-10T21:43:32.856Z  npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules/fsevents):
+2021-05-10T21:43:32.856Z  npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+2021-05-10T21:43:32.864Z  npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/webpack-dev-server/node_modules/fsevents):
+2021-05-10T21:43:32.864Z  npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+2021-05-10T21:43:32.872Z  npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/watchpack-chokidar2/node_modules/fsevents):
+2021-05-10T21:43:32.873Z  npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+2021-05-10T21:43:32.873Z  
+2021-05-10T21:43:32.874Z  up to date in 7.232s
+2021-05-10T21:43:33.538Z  
+2021-05-10T21:43:33.539Z  68 packages are looking for funding
+2021-05-10T21:43:33.539Z    run `npm fund` for details
+2021-05-10T21:43:33.539Z  
+2021-05-10T21:43:33.808Z  Running "npm run build"
+2021-05-10T21:43:34.077Z  
+2021-05-10T21:43:34.077Z  > cheesyvueblog@0.1.0 build /vercel/path0
+2021-05-10T21:43:34.077Z  > vue-cli-service build
+2021-05-10T21:43:34.077Z  
+2021-05-10T21:43:34.688Z  
+2021-05-10T21:43:34.689Z  -  Building for production...
+2021-05-10T21:43:39.978Z   WARNING  Compiled with 2 warnings9:43:39 PM
+2021-05-10T21:43:39.978Z  
+2021-05-10T21:43:39.979Z   warning  
+2021-05-10T21:43:39.979Z  
+2021-05-10T21:43:39.979Z  asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+2021-05-10T21:43:39.979Z  This can impact web performance.
+2021-05-10T21:43:39.979Z  Assets: 
+2021-05-10T21:43:39.979Z    images/004.jpg (288 KiB)
+2021-05-10T21:43:39.979Z  
+2021-05-10T21:43:39.980Z   warning  
+2021-05-10T21:43:39.980Z  
+2021-05-10T21:43:39.980Z  webpack performance recommendations: 
+2021-05-10T21:43:39.980Z  You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+2021-05-10T21:43:39.980Z  For more info visit https://webpack.js.org/guides/code-splitting/
+2021-05-10T21:43:39.980Z  
+2021-05-10T21:43:40.003Z    File                                 Size               Gzipped
+2021-05-10T21:43:40.003Z  
+2021-05-10T21:43:40.003Z    dist/js/chunk-vendors.e396d0ae.js    82.02 KiB          30.70 KiB
+2021-05-10T21:43:40.003Z    dist/js/app.408473cf.js              6.78 KiB           2.40 KiB
+2021-05-10T21:43:40.003Z    dist/css/bootstrap.min.css           163.08 KiB         24.57 KiB
+2021-05-10T21:43:40.003Z    dist/css/app.d40fc157.css            0.16 KiB           0.14 KiB
+2021-05-10T21:43:40.003Z  
+2021-05-10T21:43:40.003Z    Images and other types of assets omitted.
+2021-05-10T21:43:40.003Z  
+2021-05-10T21:43:40.004Z   DONE  Build complete. The dist directory is ready to be deployed.
+2021-05-10T21:43:40.004Z   INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+2021-05-10T21:43:40.004Z        
+2021-05-10T21:43:41.791Z  Uploading build outputs...
+2021-05-10T21:43:41.859Z  Deploying build outputs...
+2021-05-10T21:43:45.993Z  
+2021-05-10T21:43:48.538Z  Build completed. Populating build cache...
+2021-05-10T21:43:59.339Z  Uploading build cache [19.15 MB]...
+2021-05-10T21:44:00.862Z  Build cache uploaded: 1.523s
+2021-05-10T21:44:01.383Z  Done with "package.json"
