@@ -5,11 +5,7 @@
         <div class="jumbotron">
           <img alt="Vue logo" src="./assets/logo.png" />
           <HelloWorld
-<<<<<<< HEAD
             msg="My Cheesy Vue Blog (main.....)"
-=======
-            msg="My Cheesy Vue Blog (Feature)"
->>>>>>> feature
             byline="The blog that took (nearly) 30 minutes to create!"
           />
           <Articles :articles="items" />
